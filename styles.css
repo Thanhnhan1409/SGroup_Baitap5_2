@@ -1,0 +1,348 @@
+body{
+    width:98.9vw ;
+    height: 60vw;
+    margin: 0px;
+    padding: 0px;
+    margin-right: 0px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #494b4e;
+}
+.header{
+    display: flex;
+    width: 100%;
+    height:6%;
+    position: sticky;
+    top: 0px;
+    background-color: #282829;
+    margin: 0px;
+    align-items:center;
+    padding: 0px;
+    z-index: 1;
+
+}
+.fa-brands{
+    font-size: 45px;
+    color: #385898;
+    margin: 3px 20px 3px 10px;
+}
+.header--search{
+    display: flex;
+    align-items: center;
+}
+.header--search i{
+    padding:10px 0px;
+    font-size: 20px;
+    z-index: 1;
+    margin-left: 10px;
+    color:rgb(166, 164, 164) ;
+}
+.search--box{
+    width: 270px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    background-color: #494b4e;
+    border: 1px solid #494b4e;
+    border-radius: 20px ;
+    padding: 2px 6px 2px 35px;
+    margin: 2px 100px 2px 5px;
+    position: relative;
+    left: -35px;
+    font-size: 16px;
+}
+.mid{
+    margin-right: 200px;
+}
+.icon {
+    color: rgb(185, 185, 185);
+    margin: 0px;
+    padding: 10px 45px;
+    font-size: 25px;
+
+}
+.icon:hover{
+    background-color: #6f6f6f;
+    border-radius: 10px;
+}
+.right{
+    padding: 0px;
+    width: 25%;
+    margin-right: 30px;
+}
+.header--menu{
+    background-color:#494b4e ;
+    background-size: 40px;
+    margin-right: 7px;
+    border-radius: 20px;
+    padding: 2px 2px;
+}
+.header--menu:hover{
+    background-color: #848383;
+}
+.icon--r{
+    color: rgb(222, 218, 218);
+    margin: 40px;
+    font-size: 20px;
+    margin: 0px;
+    padding: 10px 10px;
+}
+.header--img{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    padding: 2px;
+}
+.coverimg{
+    width: 100%;
+    height: 65%;
+    background-image: linear-gradient(to bottom, #4f3220, #494b4e);
+}
+.img{
+    width: 1200px;
+    height: 600px;
+    top:-5px;
+    border-radius: 5px;
+    margin: 0px 150px ;
+    object-fit: cover;
+    position: relative;
+    top:-5px;
+}
+.editimg{
+    background-color: white;
+    width: fit-content;
+    padding: 0px 15px;
+    border-radius: 10px;
+    position: absolute;
+    right: 200px;
+    top: 590px;
+    display: flex;
+    align-items: center;
+}
+.editimg:hover{
+    background-color: rgb(240, 239, 239);
+}
+.iconcam{
+    color: black;
+    font-size: 25px;
+    margin-right: 15px;
+}
+.edit{
+    margin: 10px;
+    font-weight: bolder;
+}
+.ava{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 74%;
+    margin: 0px 200px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(108, 105, 105) ;
+}
+.ava ava--img{
+    display: flex;
+    width: 13%;
+    margin: 0px 10px;
+}
+.avaimg{
+    width: 200px;
+    height: 200px;
+    border: 3px solid rgb(54, 53, 53);
+    border-radius: 50%;
+    position: absolute;
+    top:600px;
+}
+.avaimg:hover{
+    opacity: 0.9;
+}
+.avaiconcam{
+    background-color: #2a2b2c;
+    border: 1px solid black;
+    color: white;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 30px;
+    position: relative;
+    left: 150px;
+    top:-3px
+}
+.avaiconcam:hover{
+    background-color: #434343;
+}
+.name{
+    display: block;
+    margin-left: 250px;
+    width: fit-content;
+    height: fit-content;
+}
+h1{
+    color: white;
+    margin-bottom: 10px;
+}
+.amountfr{
+    font-size: 20px;
+    color: #d9dcdc;
+    font-weight: bolder;
+    margin: 10px 0px;
+
+}
+.imgfriends{
+    direction: rtl;  
+    text-align: left;  
+    padding-left: 25px;
+}
+
+.imgfriends img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    left: -5px;
+    margin-left: -20px;
+    z-index: 1;
+}
+.strwall{
+    margin-left: 100px;
+    display: flex;
+    padding-right: 0px;
+    align-items: flex-end;
+}
+.addstr{
+    width: fit-content;
+    height: fit-content;
+    background-color: #1877F2;
+    display: flex;
+    align-items: center;
+    padding: 8px 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+    margin-right: 18px;
+}
+.addstr:hover{
+    background-color: #3884e7;
+
+}
+.text{
+    margin: 0px;
+    padding-left: 5px;
+}
+.editwall{
+    width: fit-content;
+    height: fit-content;
+    background-color: #282829;
+    display: flex;
+    align-items: center;
+    padding: 8px 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+    
+}
+.editwall:hover{
+    background-color: rgb(55, 54, 54);
+}
+.final{
+    display: flex;
+    margin: 4px 200px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.left{
+    display: flex;
+    color: rgb(201, 204, 204);
+    font-weight: bolder;
+}
+.left p{
+    padding:20px 15px;
+    margin: 0px 2px;
+}
+.left p:hover{
+    background-color: rgb(142, 143, 143);
+    border-radius: 5px;
+}
+.Xemthem{
+    display: flex;
+}
+.Xemthem:hover{
+    background-color: rgb(142, 143, 143);
+    border-radius: 5px;
+}
+.Xemthem p{
+    padding-right: 4px;
+}
+
+.tamgiac{
+    padding: 20px 0px;
+    color: rgb(164, 165, 165);
+}
+
+.inbmess{
+    position: fixed;
+    right: 5px;
+    bottom: 65px;
+}
+.inbmess img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.iconmess--edit{
+    background-color: #5a5b5d;
+    border-radius: 50%;
+    font-size: 15px;
+    position: fixed;
+    right: 5px;
+    bottom: 10px;
+    padding: 17px 17px;
+}
+.final--menu{
+    font-size: 25px;
+    color: white;
+    background-color: #585858;
+    padding: 5px 12px;
+    border-radius: 3px;
+}
+.final--menu:hover{
+    background-color:#7e7d7d ;
+}
+.tooltip{
+    visibility: hidden;
+    width: 240px;
+    background-color: #282829;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 25px 0;
+    position: absolute;
+    z-index: 1;
+    top: -28px;
+    right: 130%;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+.inbmess .tooltip{
+    visibility: hidden;
+    width: 200px;
+    background-color: #282829;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px 0;
+    position: absolute;
+    top: 2px;
+}
+.fa-play{
+    position: absolute;
+    right: -11px;
+    bottom: 10px;
+    color: #282829;
+}
+.inbmess:hover .tooltip{
+    visibility: visible;
+}
+.rong{
+    width: 100%;
+    height: 300px;
+    background-color: #222428;
+}
